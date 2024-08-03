@@ -1,0 +1,24 @@
+{
+  "name": "demoblaze-playwright-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "webRegression": "npx playwright test --grep @WebRegression",
+    "webRegister": "npx playwright test --grep @WebRegister",
+    "webLogin": "npx playwright test --grep @WebLogin",
+    "webLogout": "npx playwright test --grep @WebLogout",
+    "webCreateOrder": "npx playwright test --grep @WebCreateOrder",
+    "apiRegression": "npx playwright test --grep @APIRegression",
+    "apiRegister": "npx playwright test --grep @APIRegister",
+    "apiLogin": "npx playwright test --grep @APILogin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^22.0.0"
+  }
+}
