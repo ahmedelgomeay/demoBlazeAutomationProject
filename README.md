@@ -35,14 +35,14 @@ This project is designed to automate testing for the DemoBlaze website using Pla
 
 To run tests, use the following scripts:
 
-* `webRegression`: Runs web regression tests.
-* `webRegister`: Runs web registration tests.
-* `webLogin`: Runs web login tests.
-* `webLogout`: Runs web logout tests.
-* `webCreateOrder`: Runs web create order tests.
-* `apiRegression`: Runs API regression tests.
-* `apiRegister`: Runs API registration tests.
-* `apiLogin`: Runs API login tests.
+* `npm run webRegression`: Runs web regression tests.
+* `npm run webRegister`: Runs web registration tests.
+* `npm run webLogin`: Runs web login tests.
+* `npm run webLogout`: Runs web logout tests.
+* `npm run webCreateOrder`: Runs web create order tests.
+* `npm run apiRegression`: Runs API regression tests.
+* `npm run apiRegister`: Runs API registration tests.
+* `npm run apiLogin`: Runs API login tests.
 
 
 ## Reporting
